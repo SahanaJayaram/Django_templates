@@ -1,0 +1,4 @@
+{% for Login_list in Login_details %}
+<h3>{{ Login_list.user_name }}</h3>
+<p>{{ Login_list.password }}</p>
+{% endfor %}
